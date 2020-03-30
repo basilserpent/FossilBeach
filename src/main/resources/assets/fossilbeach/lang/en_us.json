@@ -1,3 +1,13 @@
 {
-  "block.fossilbeach.registryname": "Greensand Stone"
+  "language": "English",
+  "language.code": "en_us",
+  "language.region": "United States",
+  "block.fossilbeach.greensand_stone": "Greensand Stone",
+  "item.fossilbeach.greensand_stone": "Greensand Stone",
+  "block.fossilbeach.greensand_stone_fossil": "Fossilferous Greensand",
+  "item.fossilbeach.greensand_stone_fossil": "Fossilferous Greensand",
+  "block.fossilbeach.greensand_sand": "Eroded Greensand",
+  "item.fossilbeach.greensand_sand": "Eroded Greensand",
+  "block.fossilbeach.greensand_clay": "Greensand Clay",
+  "item.fossilbeach.greensand_clay": "Greensand Clay"
 }

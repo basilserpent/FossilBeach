@@ -1,7 +1,7 @@
 {
   "variants": {
     "": [
-      { "model": "fossilbeach:block/MODELNAME" }
+      { "model": "fossilbeach:block/greensand_stone" }
     ]
   }
 }

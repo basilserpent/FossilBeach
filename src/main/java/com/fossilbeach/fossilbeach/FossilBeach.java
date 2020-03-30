@@ -3,14 +3,17 @@
  * Comment on different functions, chances are you'll forget what they do
  */
 package com.fossilbeach.fossilbeach;
+import com.fossilbeach.fossilbeach.blocks.BlockRegistry;
+import com.fossilbeach.fossilbeach.items.ItemRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod(FossilBeach.MOD_ID)
 public class FossilBeach {
     public FossilBeach(){
-        ModItems.BLOCKITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        ModBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ItemRegistry.BLOCKITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        BlockRegistry.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
 public static final String MOD_ID = "fossilbeach";
