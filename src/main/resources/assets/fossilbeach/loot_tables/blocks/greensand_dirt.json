@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "name": "greensand_dirt",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossilbeach:greensand_dirt"
+        }
+      ],
+      "conditions": [{}
+      ]
+    }
+  ]
+}
