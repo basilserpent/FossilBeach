@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fossilbeach:block/greensand_stone_fossil_1"
+    "all": "fossilbeach:block/greensand_stone_fossil_2"
   }
 }
